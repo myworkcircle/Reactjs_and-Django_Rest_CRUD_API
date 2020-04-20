@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Magazee HTML5 Template Mo</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+  <link rel="stylesheet" href="{% static 'bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'templatemo-style.css' %}">
+
+  <script>
+    var renderPage = true;
+
+    if(navigator.userAgent.indexOf('MSIE')!==-1
+      || navigator.appVersion.indexOf('Trident/') > 0){
+        /* Microsoft Internet Explorer detected in. */
+        alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+        renderPage = false;
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+ <div class="container">
+   <div class="container">
+
+{% block content %}
+
+{% endblock content %}
+
+</div>
+<script src="{% static 'jquery-3.2.1.slim.min.js' %}"></script>
+<script>
+$(function(){
+
+  if(renderPage) {
+    $('body').addClass('loaded');
+  }
+
+  $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+});
+
+</script>
+</body>
+</html>
