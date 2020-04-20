@@ -5,7 +5,7 @@ Recipees are associated with a particular user only the user associated with the
 ## Installation:-
 
 ### Backend:-
-**1**)Install virtualenv using command $ sudo apt install virtualenv
+**1**)Install virtualenv using command **$ sudo apt install virtualenv**
 
 **2**)Create a virtual environment for djangorest api using command **$ virtualenv -p python3 env**
 
@@ -15,7 +15,7 @@ Recipees are associated with a particular user only the user associated with the
 
 **1**)Install npm(package manager) from online
 
-**2**)Create frontend project using command **$ npx create-react-app {name_of_app}
+**2**)Create frontend project using command **$ npx create-react-app {name_of_app}**
 
 ## Running the server:-
 
