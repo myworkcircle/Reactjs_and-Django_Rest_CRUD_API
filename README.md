@@ -25,4 +25,4 @@ Frontend :- $ npm start
 
 ## Problems that may occur:-
 
-**1**)On starting frontend server one might encounter errors(like lifecycle error etc) in that case delete the nodu_modules folder and run **$ npm install** now run server again
+**1**)On starting frontend server one might encounter errors(like lifecycle error etc) in that case delete the node_modules folder and run **$ npm install** now run server again
