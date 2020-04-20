@@ -1,4 +1,4 @@
-# Reactjs_and-Djnago_Rest_CRUD_api
+# Reactjs_and_Django_Rest_CRUD_API
 **A crud api made using djangorest framework and reactjs. It performs (create, retrieve,update, delete) operations on a recipe.
 Recipees are associated with a particular user only the user associated with the recipe can update, delete the created recipe.**
 
