@@ -23,16 +23,18 @@ Backend :- $ python3 manage.py runserver
 
 Frontend :- $ npm start
 
-# Authentication
+# Backend Overview
+
+## Authentication
 
 Token authentication has been used to authenticate user 
 
-# Apps
+## Apps
 
 Project consist of one app in backend 
 1. Food recipe
 
-# Models
+## Models
 
 Two models have been used
 
@@ -53,12 +55,12 @@ class recipe(models.Model):
    It stores information related to user
    username, password
    
-# Views
+## Views
 
 1. **listapiview**    :- for listing all recipes
 2. **recipeviewset**  :- for creating recipes
 3. **searchrecipe**   :- for searching for a particular recipe with a name
-4. **updaterecipe**   :- for updating recipe details (only autorized user can update the recipe details created by him)
+4. **updaterecipe**   :- for updating recipe details (only authorized user can update the recipe details created by him)
 5. **userviewset**    :- for creating users
 6. **userrecipes**    :- for fetching recipes related to a particular user
 7. **createrecipe**   :- alternative view for creating a recipe using inbuilt ListCreateAPIView
