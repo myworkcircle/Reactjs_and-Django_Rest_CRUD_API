@@ -40,7 +40,7 @@ Two models have been used
 
 1. FoodRecipe model containing fields
 
-class recipe(models.Model):
+ class recipe(models.Model):
 
     name = models.CharField(max_length=256)
     owner = models.ForeignKey(User,on_delete=models.CASCADE,null=True)
@@ -50,7 +50,7 @@ class recipe(models.Model):
     image = models.FileField(upload_to='fileupload',blank=True)
     description = models.CharField(max_length=256)
     
-2. Inbuilt auth user 
+2. Inbuilt auth User model
 
    It stores information related to user
    username, password
