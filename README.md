@@ -29,9 +29,27 @@ Token authentication has been used to authenticate user
 
 # Apps
 
-Project consist of two apps in backend 
-1. Account
-2. Food recipe
+Project consist of one app in backend 
+1. Food recipe
+
+# Models
+
+Two models have been used
+
+1. FoodRecipe model containing fields
+
+class recipe(models.Model):
+
+    name = models.CharField(max_length=256)
+    owner = models.ForeignKey(User,on_delete=models.CASCADE,null=True)
+    time = models.CharField(max_length=256)
+    directions = models.CharField(max_length=256)
+    ingredients = models.CharField(max_length=256)
+    image = models.FileField(upload_to='fileupload',blank=True)
+    description = models.CharField(max_length=256)
+    
+2. Inbuilt auth user 
+
 
 ## Problems that may occur:-
 
