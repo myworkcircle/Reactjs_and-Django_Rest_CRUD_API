@@ -55,13 +55,13 @@ class recipe(models.Model):
    
 # Views
 
-1. **listapiview**   :- for listing all recipes
-2. **recipeviewset** :- for creating recipes
-3. **searchrecipe**  :- for searching for a particular recipe with a name
-4. **updaterecipe**  :- for updating recipe details (only autorized user can update the recipe details created by him)
-5. **userviewset**   :- for creating users
-6. **userrecipes**   :- for fetching recipes related to a particular user
-7. **createrecipe**  :- alternative view for creating a recipe using inbuilt ListCreateAPIView
+1. **listapiview**    :- for listing all recipes
+2. **recipeviewset**  :- for creating recipes
+3. **searchrecipe**   :- for searching for a particular recipe with a name
+4. **updaterecipe**   :- for updating recipe details (only autorized user can update the recipe details created by him)
+5. **userviewset**    :- for creating users
+6. **userrecipes**    :- for fetching recipes related to a particular user
+7. **createrecipe**   :- alternative view for creating a recipe using inbuilt ListCreateAPIView
 
 
 ## Problems that may occur:-
