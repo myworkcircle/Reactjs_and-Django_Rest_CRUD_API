@@ -66,6 +66,17 @@ class recipe(models.Model):
 7. **createrecipe**   :- alternative view for creating a recipe using inbuilt ListCreateAPIView
 
 
+# Frontend Overview
+
+Frontend part has been split into 5 components namely
+
+1. Login (login.js)
+2. Creating Recipe (create_recipe.js)
+3. Displaying a certain recipe (load_recipe.js)
+4. Searching for a recipe (search_recipe.js)
+5. Updating a recipe (update_recipe.js)
+
+
 ## Problems that may occur:-
 
 **1**)On starting frontend server one might encounter errors(like lifecycle error etc) in that case delete the node_modules folder and run **$ npm install** now run server again
