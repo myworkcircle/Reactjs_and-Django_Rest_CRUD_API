@@ -13,15 +13,25 @@ Recipees are associated with a particular user only the user associated with the
 
 ### Frontend:-
 
-**1**)Install npm(package manager) from online
+**1**. Install npm(package manager) from online
 
-**2**)Create frontend project using command **$ npx create-react-app {name_of_app}**
+**2**. Create frontend project using command **$ npx create-react-app {name_of_app}**
 
 ## Running the server:-
 
 Backend :- $ python3 manage.py runserver
 
 Frontend :- $ npm start
+
+# Authentication
+
+Token authentication has been used to authenticate user 
+
+# Apps
+
+Project consist of two apps in backend 
+1. Account
+2. Food recipe
 
 ## Problems that may occur:-
 
